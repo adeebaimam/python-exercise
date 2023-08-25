@@ -7,5 +7,7 @@ if 100<=n<=999:
         square=get_num**2
         sum+=square
         n=n//10
-    print(sum)
+    print("sum of squares of three digit number: ",sum)
+else:
+    print("enter valid number of three digit")
         
