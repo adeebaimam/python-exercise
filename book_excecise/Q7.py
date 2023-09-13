@@ -2,8 +2,14 @@
                  N    _
     Variance=1/N.∑(xi-x)^2
                  i-1
-'''
+                 
+                           N    _
+    Standard Variance=[1/N.∑(xi-x)^2]^1/2
+                           i-1
+    
+'''                        
 
+import math
 # Here N is  total number of datapoints
 N=list(map(int,input("Enter yor data_points: ").split()))
 
@@ -22,8 +28,14 @@ for i in N:
     x=(i-X_)**2   #calculating (xi-X_)^2
     s_sum+=x      # And summing them up
     
-    print(f'For {i}--> {i}-{X_} = {x}')
+    print(f'For {i}--> {i}-{X_} = {x:.2f}')
     
-    Var=s_sum/count    # Calculating variance =(xi-X_)^2/N, here X_ is mean of N numbers
+Var=s_sum/count    # Calculating variance =(xi-X_)^2/N, here X_ is mean of N numbers
 print(f'Sum of squared difference = {s_sum}')    
 print(f'Variance = {Var}')
+
+
+
+#to calculate standard deviation 
+St_Var=math.sqrt(Var)
+print(f'Standard Variance = {St_Var:.2f}')
