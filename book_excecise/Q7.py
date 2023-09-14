@@ -22,17 +22,17 @@ for i in N:
     count+=1   # calculating total no. in data_points i.e N
     sum+=i     # calculating total sum of N numbers
 X_=sum/count   #here X_ is mean of N numbers
-print(f'Mean of {N} is {sum}/{count} = {X_}')
+print(f'Mean of {N} is {sum}/{count} = {X_:.2f}')
       
 for i in N:
     x=(i-X_)**2   #calculating (xi-X_)^2
     s_sum+=x      # And summing them up
     
-    print(f'For {i}--> {i}-{X_} = {x:.2f}')
+    print(f'For {i}--> {i}-{X_:.2f} = {x:.2f}')
     
 Var=s_sum/count    # Calculating variance =(xi-X_)^2/N, here X_ is mean of N numbers
-print(f'Sum of squared difference = {s_sum}')    
-print(f'Variance = {Var}')
+print(f'Sum of squared difference = {s_sum:.2f}')    
+print(f'Variance = {Var:.2f}')
 
 
 
