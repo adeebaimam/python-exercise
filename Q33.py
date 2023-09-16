@@ -1,4 +1,4 @@
-#The natural logarithm can be approximated by the following series.
+# The natural logarithm can be approximated by the following series.
 #((x-1)/x)+1/2((x-1)/x)^2+1/2((x-1)/x)^3+...
 #If x is input through the keyboard, write a program to calculate the sum of the first seven terms of this series.
 x = int(input("Enter the value of x: "))
