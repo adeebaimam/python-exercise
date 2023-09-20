@@ -1,4 +1,4 @@
-#write a program to compute the aarea of a triangle and a circle by overloading the area() function.
+#write a program to compute the area of a triangle and a circle by overloading the area() function.
 def area_triangle(b,h):
     area=(b*h)/2
     return area
