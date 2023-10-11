@@ -1,3 +1,5 @@
+//WAp to covert fahrenheit into centigrade
+
 #include <stdio.h>
 
 int main() {
