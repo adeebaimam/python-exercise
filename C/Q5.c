@@ -1,3 +1,5 @@
+//WAP to recieve values of latitude (L1,L2) and longitude (G1,G2), in degrees of two places on the earth and output the distance (D) between them in nautical miles .
+
 #include <stdio.h>
 #include <math.h>
 
