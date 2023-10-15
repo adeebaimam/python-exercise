@@ -1,4 +1,4 @@
-/* WAP to input five digit number from the keyboard and calculate the sum of its digit*/
+/* WAP to input five digit number from the keyboard and calculate the sum of it's digit*/
 
 #include <stdio.h>
 
