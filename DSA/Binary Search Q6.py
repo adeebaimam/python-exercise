@@ -1,4 +1,4 @@
-#to find an element from rotated array
+#To find an element from rotated array
 
 def find(arr,key):
     start=0
