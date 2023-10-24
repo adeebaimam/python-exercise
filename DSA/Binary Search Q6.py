@@ -11,7 +11,7 @@ def find(arr,key):
             return mid
         
         if arr[start]<=arr[mid]:              #left side
-            if arr[start]<=key<arr[mid]:         #left
+            if arr[start] <=key< arr[mid]:         #left
                 end=mid-1
             else:                               #right
                 start=mid+1            
